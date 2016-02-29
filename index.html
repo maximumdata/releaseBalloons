@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 11</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+    canvas { display: block; }
+    img { display: none; }
+    #info { position: absolute; top: 0; right: 0; left: 0; font-size: 20px; font-weight: bold; font-family: monospace; text-align: center; }
+  </style>
+</head>
+<body>
+  <div id="info">Click anywhere to release a balloon!</div>
+  <img src="bg.jpg" alt="" id="bg">
+  <img src="balloon.png" alt="" id="balloon">
+  <canvas id="canvas"></canvas>
+  <script src="11.js" charset="utf-8"></script>
+</body>
+</html>
